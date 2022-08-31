@@ -1,0 +1,28 @@
+<?php ############################################################################################################# ?>
+<?php $formName = 'banner'; ?>
+<form action="" name="<?= $formName ?>" id="form-<?= $formName ?>">
+
+    <!-- input nome -->
+    <input name="Nome" type="text" class="" placeholder="Nome*" required>
+
+    <!-- input telefone -->
+    <input name="Telefone" type="tel" class="phone" placeholder="Telefone*" required>
+
+    <!-- input email -->
+    <input name="Email" type="email" class="" placeholder="E-mail*" required>
+
+    <!-- input Mensagem -->
+    <textarea name="Mensagem" type="text" class="" placeholder="Mensagem" rows="3" ></textarea>
+
+    <!-- input checkbox -->
+    <p>
+        <input name="Termos" type="checkbox"  value="aceito" required>Eu li e aceito os termos e
+        <a href="" target="_blank" >Política de Privacidade</a>.
+    </p>
+
+    <!-- botão enviar -->
+    <button id="form-botao-<?= $formName ?>" type="submit" class="">Enviar</button>
+
+</form>
+<?php unset($formName); ?>
+<?php ############################################################################################################# ?>

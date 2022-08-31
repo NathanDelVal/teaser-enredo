@@ -1,0 +1,23 @@
+{
+  "name": "internit",
+  "description": "O tema foi criado para total uso da empresa  Accor, no projeto Hotsite, com objetivo de servir como ferramenta para a realização de um cultural da rede de hotéis Accor de parabenização aos profissionais na área da saúde que prestaram serviços dentro da pandemia que teve início ao ano de 2020. Qualquer uso do tema além dos projeto Hotsite, viola os termos de uso e exclusividade desse projeto.",
+  "version": "1.0.0",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\u0016moderno",
+    "integração",
+    "dinâmica",
+    "comportamentos",
+    "flexívies",
+    "estilo",
+    "comercial"
+  ],
+  "author": "Internit: Criação Web",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.0.4"
+  }
+}

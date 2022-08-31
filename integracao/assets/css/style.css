@@ -1,0 +1,189 @@
+@font-face {
+  font-family: museo300;
+  src: url(../fonts/museo/museo300.eot);
+  src: url(../fonts/museo/museo300.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/museo/museo300.woff) format("woff"),
+    url(../fonts/museo/museo300.ttf) format("truetype"),
+    url(../fonts/museo/museo300.svg#museo300) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: museo500;
+  src: url(../fonts/museo/museo500.eot);
+  src: url(../fonts/museo/museo500.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/museo/museo500.woff) format("woff"),
+    url(../fonts/museo/museo500.ttf) format("truetype"),
+    url(../fonts/museo/museo500.svg#museo500) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: museo700;
+  src: url(../fonts/museo/museo700.eot);
+  src: url(../fonts/museo/museo700.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/museo/museo700.woff) format("woff"),
+    url(../fonts/museo/museo700.ttf) format("truetype"),
+    url(../fonts/museo/museo700.svg#museo700) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: museo300;
+}
+
+main .menu-lateral {
+  width: 280px;
+  max-width: 285px;
+  background-color: #f7f7f7;
+  position: fixed;
+}
+
+main .menu-lateral > a span {
+  font-family: museo500;
+  color: #007cb2;
+}
+
+main .menu-lateral .nav .nav-item a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  color: #007cb2;
+}
+
+main .menu-lateral .nav .nav-item a i {
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+main .menu-lateral .nav .nav-item a:hover i {
+  opacity: 1;
+}
+
+main .menu-lateral .nav .nav-item a.active,
+main .menu-lateral .nav .nav-item a:hover {
+  font-family: museo700;
+  background-color: transparent;
+  color: #ba2746;
+}
+
+main .menu-lateral .nav .nav-item a.active i {
+  opacity: 1;
+}
+
+main .tab-content {
+  padding: 1rem 2rem 1rem 19rem;
+}
+
+main .tab-content .tab-pane form h1 {
+  font-size: 1.8rem;
+}
+
+main .tab-content .tab-pane form button{
+  margin-top: 1.6rem;
+}
+
+main .tab-content .tab-pane form .title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .tab-content .tab-pane form .title .button button{
+  padding: .5rem 1rem;
+  border: solid 1px #CED4DA;
+  color: #007cb2;
+  margin-top: 0;
+}
+
+main .tab-content .tab-pane form .row.form-name{
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+main .tab-content .tab-pane form .row.form-name .form-floating{
+  width: 33%;
+}
+
+main .tab-content .tab-pane form .row .form-check{
+  margin-bottom: 2rem !important;
+}
+
+main .tab-content .tab-pane form .form-floating input{
+  border: none;
+  border-bottom: solid 2px #CED4DA;
+  border-radius: 0;
+}
+
+main .tab-content .tab-pane form .form-floating input:focus{
+  box-shadow: none;
+  border-image: linear-gradient(to right, #007cb2, #17C7F6);
+  border-image-slice: 1;
+}
+
+main .tab-content .tab-pane form .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+  transform: scale(.85) translateY(-.9rem) translateX(.15rem)
+}
+
+main .tab-content .tab-pane form .form-floating label{
+  font-weight: 500;
+}
+
+.active{
+  border-image: linear-gradient(to right, #007cb2, #17C7F6) !important;
+  border-image-slice: 1 !important;
+}
+/* main .tab-content .tab-pane form .field {
+  position: relative;
+  padding-top: 15px;
+}
+
+main .tab-content .tab-pane form .field input {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #e5e5e5;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #cecfd1;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+main .tab-content .tab-pane form .field input::placeholder {
+  color: transparent;
+}
+
+main .tab-content .tab-pane form .field input:placeholder-shown ~ label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+main .tab-content .tab-pane form .field label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #cecfd1;
+}
+
+main .tab-content .tab-pane form .field input:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #007cb2, #17C7F6);
+  border-image-slice: 1;
+}
+
+main .tab-content .tab-pane form .field input:focus ~ label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #007cb2;
+  font-weight: 700;
+} */
